@@ -15,4 +15,5 @@ node_modules/keygrip/
 node_modules/mime/
 node_modules/mongoskin/
 node_modules/uglify-js/
+node_modules/css-compressor/
 client/*
