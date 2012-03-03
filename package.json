@@ -1,0 +1,23 @@
+{
+    "name" : "node-cserver",
+    "description" : "A node js server which has built in file access, user-management, database access and site optimisations.",
+    "version" : "0.9",
+    "main" : "server.js",
+    "author" : {
+        "name" : "Koch Michael",
+        "email" : "kochmichael89@gmail.com"
+    },
+    "keywords" : 
+        [
+            "node cserver"
+        ],
+    "licenses" : {
+        "type" : "gplv3"
+    },
+    "bugs" : {
+        "web" : "null"
+    },
+    "license" : {
+        "type" : "gplv3"
+    }
+}
