@@ -1,4 +1,4 @@
-# cServeer
+# cServer
 This is a node webserver.
 
 ## Features
