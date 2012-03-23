@@ -26,9 +26,18 @@ require("cSettings").init(process.env['app_config'], function(cSettings){
 			}
 		}
 		,{		// enable for file webserver
-			api: 'html',
+			api: 'extjs',
 			method: 'GET',
-			callback: require('cFile').staticDir(__dirname + '/client',{ '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'mime/json', '.mp3': 'audio/mp3'})
+			callback: require('cFile').staticDir(__dirname + '/client',{ 
+            '.html': 'text/html', 
+            '.css': 'text/css', 
+            '.js': 'text/javascript', 
+            '.json': 'mime/json', 
+            '.mp3': 'audio/mp3',
+            '.png': 'image/png',
+            '.gif': 'image/gif'
+            
+            })
 		}
 	]);
    
